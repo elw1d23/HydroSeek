@@ -1,0 +1,23 @@
+Installation Guide, HydroSeek_V2
+
+To install HydroSeek on your local machine please follow the instructions:
+
+1. Download the zip file containing the mlappinstall file, ReadMe, configuration file and Launch script
+2. Decompress the zip file in a known local directory
+3. Open MATLAB
+	Ensure you are running 2023 or later, and ave Signal Processing, Audio and Statistics Toolboxes 	running.
+4. Navigate o the local directory containing Hydroseek files
+5. Double click on HydroSeek_Custom_V2.mlappinstall file (if you have an existing version click reinstall).
+6. For Windows/Mac users on normal screens navigate to the apps toolbar and double click on 	HydroSeek_Custom_V2 to launch the app, or type HydroSeek_Custom_V2 in the command window.
+	
+	For windows users with screen sizing issues, type LaunchHydroSeek in the command window to 	launch the app. 
+
+7. Do not resize the window for configuration.
+8. Load an audio file, and configuration file
+	IMPORTANT: Check config settings are sensible for your data (see README).
+9. Press Start
+10. Press Load Next Frame (annoying step, but kicks the start up loop onto Labelling Loop).
+
+You are now successfully using HydroSeek.
+
+When finished labelling the app will auto save your labels table to a csv of the same name as the loaded audio file to the same directory as your audio file (Same path). The app will close down and relaunch a new window ready to label a new file.
